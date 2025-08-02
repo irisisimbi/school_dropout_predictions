@@ -104,6 +104,8 @@ A multi-page Power BI dashboard was created using the processed data.
 ### ✅ Page 3: Distance Insights
 - **Boxplot**of distance to school vs dropout status
 ![boxplot of distance to school vs dropout status](visualizations/distance_vs_dropout.png)
+**combined analysis**
+![dropout-analysis-combined](visualizations/dropout_analysis_combined.png)
 - **Line chart** for dropout trends (if time data is included)
 ![line chart for sum of count by distance to school and dropout](visualizations/sum%20of%20count%20by%20distance%20to%20school%20and%20dropout.png)
 ![line chart for sum of age and dropout](visualizations/sum%20of%20count%20by%20age%20and%20dropout.png)
@@ -133,4 +135,5 @@ A multi-page Power BI dashboard was created using the processed data.
 
 ```bash
 git clone https://github.com/irisisimbi/school_dropout_predictions.git
+
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Names: Isimbi Mushimire Iris
 # ID: 27121
 ## BIG DATA PROJECT
@@ -139,3 +140,6 @@ git clone https://github.com/irisisimbi/school_dropout_predictions.git
 
 
 
+=======
+# school_dropout_predictions
+>>>>>>> e3bef5f5f11e624f12c378c0962bd77580d339bf

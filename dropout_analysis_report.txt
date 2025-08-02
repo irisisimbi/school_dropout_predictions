@@ -1,0 +1,23 @@
+
+    PRIMARY SCHOOL DROPOUT ANALYSIS REPORT
+    =====================================
+
+    Dataset Overview:
+    - Total students: 1000
+    - Dropout rate: 28.60%
+
+    Model Performance:
+    - Model type: Random Forest Classifier
+    - Number of features: 7
+
+    Top Predictive Factors:
+    1. student_id (importance: 0.34)
+    2. distance_to_school (importance: 0.22)
+    3. age (importance: 0.17)
+    Recommendations:
+    - Target interventions for students with student_id issues
+    - Focus on improving distance_to_school for at-risk students
+    - Monitor age as secondary indicator
+
+    Generated on: 2025-07-31 14:23:32.015163
+    

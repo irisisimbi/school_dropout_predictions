@@ -1,6 +1,7 @@
-<<<<<<< HEAD
+
 # Names: Isimbi Mushimire Iris
 # ID: 27121
+
 ## BIG DATA PROJECT
 
 # 📚 School Dropout Prediction in Rural Rwanda
@@ -10,13 +11,10 @@
 This project is part of my final capstone. It addresses the challenge of **predicting primary school dropout in rural Rwanda** using socio-economic indicators.
 
 
----
-
 ## 🧠 Problem Statement
 
 In rural Rwanda, dropout rates among primary school children remain a persistent problem. The goal of this project is to **leverage data analytics to identify key factors contributing to dropout** and create a **predictive model** that can be used by education stakeholders to take proactive measures.
 
----
 
 ## 📊 Dataset Details
 
@@ -31,7 +29,6 @@ In rural Rwanda, dropout rates among primary school children remain a persistent
   - `school_resources`: Level of school resources (Low to High)
   - `dropout`: Binary label (1 = Dropped Out, 0 = Enrolled)
 
----
 
 ## 🧼 Python Analytics Process 
 
@@ -74,8 +71,6 @@ Visualizations saved as:
 - Extracted and visualized feature importances from the model
 - Found that **family income**, **parents' education**, and **distance to school** were strong predictors of dropout
 
----
-
 ## 💡 Innovation Component 
 
 - Created a **custom Python function**: `predict_dropout_risk(model, student_data)` to:
@@ -87,7 +82,6 @@ Visualizations saved as:
 
 - This function demonstrates how the model can be applied in real-world scenarios for early intervention.
 
----
 
 ## 📈 Power BI Dashboard 
 
@@ -100,18 +94,21 @@ A multi-page Power BI dashboard was created using the processed data.
 - Dropout Rate (%)
 
 ### ✅ Page 2: Dropout by Demographics
-- Bar charts for:
+- **Bar charts** for:
 - Dropout by Gender
 ![dropout-by-gender](visualizations/dropout_by_gender.png)
 - Dropout by Family Income
-![dropout-by-family-income](<visualizations/dropout by family_income.png>)
+![dropout by family_income](visualizations/dropout%20by%20family_income.png)
 - Dropout by Parents' Education
-![dropout-by-parents-education](<visualizations/dropout by parents_education.png>)
+![dropout-by-parents-education](visualizations/dropout%20by%20parents_education.png)
 ### ✅ Page 3: Distance Insights
-- Boxplot of distance to school vs dropout status
+- **Boxplot**of distance to school vs dropout status
 ![boxplot of distance to school vs dropout status](visualizations/distance_vs_dropout.png)
-- Line chart for dropout trends (if time data is included)
-![line chart for dropout](<visualizations/sum of count by distance to school and dropout.png>)
+- **Line chart** for dropout trends (if time data is included)
+![line chart for sum of count by distance to school and dropout](visualizations/sum%20of%20count%20by%20distance%20to%20school%20and%20dropout.png)
+![line chart for sum of age and dropout](visualizations/sum%20of%20count%20by%20age%20and%20dropout.png)
+ **Correlation heatmap** showing relationships between all features
+ ![Correlation Matrix](visualizations/correlation_matrix.png)
 ### ✅ Page 4: AI Visuals (Key Influencers & Decomposition Tree)
 - Identifies factors that most influence the likelihood of dropout
 
@@ -120,7 +117,6 @@ A multi-page Power BI dashboard was created using the processed data.
 - Drill-down functionality
 - Custom tooltips and **bookmarks** to toggle between filtered views
 
----
 
 ## 📌 Screenshots (To Be Added in GitHub)
 
@@ -128,18 +124,13 @@ A multi-page Power BI dashboard was created using the processed data.
 ![dashboard-overview](visualizations/dashboard-overview.png)
 
 ### 🔹 Feature Importance
-![feature-importance](<visualizations/feature_importance for dropout prediction.png>)
+![feature-importance](visualizations/feature_importance%20for%20dropout%20prediction.png)
 
----
 
 ## 🛠 How to Use This Project 
 
 ### 🧑‍💻 Clone the Repository
+
 ```bash
 git clone https://github.com/irisisimbi/school_dropout_predictions.git
 
-
-
-=======
-# school_dropout_predictions
->>>>>>> e3bef5f5f11e624f12c378c0962bd77580d339bf
